@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/book
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  mail:
+    host: smtp.qq.com
+    username: 2719118523@qq.com
+    password: cqriztrnstzqdfgd
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
